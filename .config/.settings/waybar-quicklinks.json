@@ -1,0 +1,39 @@
+{
+  "custom/quicklink1": {
+    "format": "",
+    "on-click": "google-chrome-stable",
+    "tooltip-format": "Open Chromium"
+  },
+  "custom/quicklink2": {
+    "format": "",
+    "on-click": "firefox",
+    "tooltip-format": "Open Firefox"
+  },
+  "custom/quicklink3": {
+    "format": "",
+    "on-click": "microsoft-edge-stable",
+    "tooltip-format": "Open Microsoft Edge"
+  },
+  "custom/quicklink4": {
+    "format": "",
+    "on-click": "thunderbird",
+    "tooltip-format": "Open Thunderbird"
+  },
+  "custom/quicklink5": {
+    "format": "",
+    "on-click": "~/dotfiles/.settings/filemanager.sh",
+    "tooltip-format": "Open filemanager"
+  },
+  "custom/quicklinkempty": {},
+  "group/quicklinks": {
+    "orientation": "horizontal",
+    "modules": [
+      "custom/quicklink1",
+      "custom/quicklink2",
+      "custom/quicklink3",
+      "custom/quicklink4",
+      "custom/quicklink5",
+      "custom/quicklinkempty"
+    ]
+  }
+}
