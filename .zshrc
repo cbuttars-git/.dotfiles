@@ -354,19 +354,8 @@ alias nve.starship="nve $CONFIG/starship/starship.toml"
 alias nve.waybar.mod.json="nve $CONFIG/waybar/modules.json"
 alias nve.zshrc="nve $HOME/.zshrc"
 
-#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-#
-#     yadm specific aliases
-#
-#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-alias y="yadm"
-alias y.add="yadm_add"
-alias y.commit="yadm_commit"
-alias y.fetch="y fetch"
-alias y.pull="y pull"
-alias y.push="y push"
-alias y.status="y status"
 
+alias goto.files="cd $HOME/git-repositories/github/cbuttars-git/.dotfiles"
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #
 #			Misc. one off aliases
