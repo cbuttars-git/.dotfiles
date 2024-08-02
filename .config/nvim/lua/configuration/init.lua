@@ -11,5 +11,5 @@
   Owned by: Christopher S. Buttars
 
 ]]
- 
-require("configuration")
+
+require("configuration.core")
