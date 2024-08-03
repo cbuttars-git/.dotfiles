@@ -41,7 +41,9 @@ luac.out
 
 # miscellanious
 lazy-lock.json
-.config/.settings/settings.json
-**/waybar/modules.json
+*.config/.settings/settings.json
+*.config/waybar/modules.json
+*.config/hypr/hyprland.conf
+*.config/hypr/conf/monitor.conf
 
 
