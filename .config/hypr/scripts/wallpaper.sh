@@ -11,7 +11,7 @@
 # ----------------------------------------------------- 
 
 use_cache=0
-if [ -f ~/dotfiles/.settings/wallpaper_cache ] ;then
+if [ -f $HOME/dotfiles/.settings/wallpaper_cache ] ;then
     use_cache=1
 fi
 
@@ -32,7 +32,7 @@ blurred_wallpaper="$HOME/.cache/blurred_wallpaper.png"
 square_wallpaper="$HOME/.cache/square_wallpaper.png"
 rasi_file="$HOME/.cache/current_wallpaper.rasi"
 blur_file="$HOME/dotfiles/.settings/blur.sh"
-default_wallpaper="$HOME/wallpaper/default.jpg"
+default_wallpaper="~/wallpaper/default.jpg"
 blur="50x30"
 blur=$(cat $blur_file)
 

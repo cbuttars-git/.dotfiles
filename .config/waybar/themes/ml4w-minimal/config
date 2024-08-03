@@ -20,7 +20,7 @@
     // Load Modules
     "include": [
         "~/dotfiles/.settings/waybar-quicklinks.json",
-        "~/dotfiles/waybar/modules.jsonc"
+        "~/dotfiles/waybar/modules.json"
     ],
 
     // Modules Left
@@ -42,7 +42,6 @@
     "modules-right": [
         "custom/updates",
         "pulseaudio",
-        "backlight",
         "bluetooth",
         "battery", 
         "network",

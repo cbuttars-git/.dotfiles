@@ -21,7 +21,7 @@
     // Load Modules
     "include": [
         "~/dotfiles/.settings/waybar-quicklinks.json",
-        "~/dotfiles/waybar/modules.jsonc"
+        "~/dotfiles/waybar/modules.json"
     ],
 
     // Modules Left
@@ -29,7 +29,7 @@
         "custom/appmenu",
         "group/links",
         "group/settings",
-        //"wlr/taskbar",
+        "wlr/taskbar",
         "group/quicklinks",
         "hyprland/window"
     ],
@@ -44,7 +44,6 @@
     "modules-right": [
         "custom/updates",
         "pulseaudio",
-        "backlight",
         "bluetooth",
         "battery", 
         "network",

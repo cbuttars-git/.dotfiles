@@ -316,22 +316,10 @@ window#waybar.empty #window {
 }
 
 /* -----------------------------------------------------
- * Backlight
- * ----------------------------------------------------- */
-
- #backlight {
-    font-size: 14px;
-    color: @textcolor;
-    border-radius: 15px;
-    margin: 0px 15px 0px 0px;
-    background-color: transparent;
-}
-
-/* -----------------------------------------------------
  * Pulseaudio
  * ----------------------------------------------------- */
 
- #pulseaudio {
+#pulseaudio {
     font-size: 14px;
     color: @textcolor;
     border-radius: 15px;
@@ -432,4 +420,8 @@ window#waybar.empty #window {
 
 label:focus {
     background-color: #000000;
+}
+
+#backlight {
+    background-color: #90b1b1;
 }
