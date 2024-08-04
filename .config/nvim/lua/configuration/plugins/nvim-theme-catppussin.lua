@@ -61,6 +61,11 @@ local returnValue = {
     integrations = {
       cmp = true,
       gitsigns = true,
+      indent_blankline = {
+        enabled = true,
+        scope_color = "Maroon",
+        colored_indent_levels = true,
+      },
       nvimtree = true,
       telescope = {
          enabled = true,
