@@ -55,6 +55,9 @@ require("lazy").setup(
     {
       import = "configuration.plugins"
     },
+    {
+      import = "configuration.lsp"
+    },
   },
   checker = {
     enabled = true,
@@ -62,11 +65,6 @@ require("lazy").setup(
   },
   change_detection = {
     notify = false,
-  },
-  install = {
-    colorscheme = {
-      "catppuccin"
-    }
   },
   ui = {
     border = "rounded",

@@ -14,4 +14,4 @@
 
 local c = vim.cmd
 
--- c.colorscheme "catppuccin"
+c.colorscheme "catppuccin-mocha"

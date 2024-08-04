@@ -62,6 +62,9 @@ local returnValue = {
       cmp = true,
       gitsigns = true,
       nvimtree = true,
+      telescope = {
+         enabled = true,
+      },
       treesitter = true,
       notify = true,
       mini = {
