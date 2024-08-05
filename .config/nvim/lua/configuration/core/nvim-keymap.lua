@@ -35,9 +35,9 @@ keymap.set("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "Go to previous tab" }) 
 keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in new tab" }) --  move current buffer to new tab
 
 -- Navigate vim panes better
-keymap.set('n', '<C-k>', ':wincmd k<CR>')
-keymap.set('n', '<C-j>', ':wincmd j<CR>')
-keymap.set('n', '<C-h>', ':wincmd h<CR>')
-keymap.set('n', '<C-l>', ':wincmd l<CR>')
+keymap.set("n", "<C-k>", ":wincmd k<CR>")
+keymap.set("n", "<C-j>", ":wincmd j<CR>")
+keymap.set("n", "<C-h>", ":wincmd h<CR>")
+keymap.set("n", "<C-l>", ":wincmd l<CR>")
 
 keymap.set('n', '<leader>h', ':nohlsearch<CR>')
