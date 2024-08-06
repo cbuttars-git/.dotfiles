@@ -66,6 +66,7 @@ local returnValue = {
         scope_color = "Maroon",
         colored_indent_levels = true,
       },
+      lsp_trouble = false,
       nvimtree = true,
       telescope = {
          enabled = true,
