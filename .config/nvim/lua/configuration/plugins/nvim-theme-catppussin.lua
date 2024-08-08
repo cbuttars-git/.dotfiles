@@ -32,7 +32,7 @@ local returnValue = {
     dim_inactive = {
       enabled = false,
       shade = "dark",
-      percentage = 0.15,w
+      percentage = 0.15,
     },
     no_italic = false,
     no_bold = false,
@@ -77,9 +77,9 @@ local returnValue = {
         enabled = true,
         indentscope_color = "",
       },
+      which_key = true,
     },
   })
---  vim.cmd.colorscheme "catppuccin"
 end,
 }
 
