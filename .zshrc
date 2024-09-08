@@ -363,6 +363,17 @@ alias goto.files="cd $HOME/git-repositories/github/cbuttars-git/.dotfiles"
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 alias shopt="/usr/bin/shopt"
 
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#
+#   My Docker Container Specific aliases
+#
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+alias dock.create.mssql_01="$HOME/git-repositories/github/cbuttars-git/docker_files/create_rojovida_development_mss_database.sh"
+alias dock.delete.mssql_01="$HOME/git-repositories/github/cbuttars-git/docker_files/delete_rojovida_development_mss_database.sh"
+alias dock.create.postgress_01="$HOME/git-repositories/github/cbuttars-git/docker_files/create_rojovida_development_postgress_database.sh"
+alias dock.delete.postgress_01="$HOME/git-repositories/github/cbuttars-git/docker_files/delete_rojovida_development_postgress_database.sh"
+alias dock.ps="docker ps --all"
+
 #list
 alias ls='ls --color=auto'
 alias la='ls -a'
