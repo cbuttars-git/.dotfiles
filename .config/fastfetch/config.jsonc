@@ -5,7 +5,7 @@
       "padding": {
       "top": 0
       },
-      "type" : "small"
+      "type" : "builtin"
   },
   "display": {
         "separator": " ➜  "
